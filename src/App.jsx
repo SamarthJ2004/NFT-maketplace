@@ -9,6 +9,7 @@ const App = () => {
         <Navbar/>
       </header>
       <Hero/>
+      <LatestDrops/>
     </main>
   )
 }
