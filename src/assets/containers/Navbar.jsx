@@ -3,7 +3,7 @@ import logo from '../images/logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="bg-red-400 flex justify-between items-center py-2 px-3">
+    <nav className="flex justify-between items-center py-2 px-3">
       <section className="flex items-center justify-start gap-4">
         <FaBars size={30} />
         <img src={logo} alt="logo" className="h-16" />
