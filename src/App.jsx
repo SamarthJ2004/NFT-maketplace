@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from './assets/containers/Navbar'
+import Hero from './assets/containers/Hero'
 
 const App = () => {
   return (
-    <div className='bg-slate-500 text-4xl'>
-      App
-    </div>
+    <main>
+      <header>
+        <Navbar/>
+      </header>
+      <Hero/>
+    </main>
   )
 }
 
