@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-[rgb(238,238,255)] grid grid-cols-[2fr,3fr] gap-5 mt-10 mx-16 px-16 py-20 rounded-2xl'>
-      <section className='px-5'>
+    <footer className='bg-[rgb(238,238,255)] grid grid-cols-[2fr,3fr] gap-8 mt-10 mx-16 px-16 py-20 rounded-2xl max-lg:flex max-lg:flex-col items-center max-sm:mx-8'>
+      <section className='px-5 w-full'>
         <h1 className='text-2xl font-bold mb-5'>Always Feel Connected</h1>
-        <input type="text" className='focus:outline-none w-[70%] py-2 px-4 rounded-full'/>
+        <input type="text" className='focus:outline-none w-[70%] py-2 px-4 rounded-full' />
       </section>
-      <section className='grid grid-cols-3 gap-5'>
+      <section className='grid grid-cols-3 gap-8 max-sm:flex max-sm:flex-col'>
         <ul className='text-gray-500 flex flex-col'>
           <p className='text-2xl font-bold text-black mb-3'>Collections</p>
           <a href="">Gaming</a>

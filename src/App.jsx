@@ -4,9 +4,7 @@ import { Navbar, Hero, LatestDrops, Introduction, Collection, Subscribe, Footer,
 const App = () => {
   return (
     <main className='scroll-smooth'>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <Hero />
       <LatestDrops />
       <Introduction />
